@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani vs. Hadyn</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="ourGames" style="font-size: 50px;">Our Games</h1>
+    <div class="games">
+        <div class="container" id="everdell" onclick="loadEverdellPage()">
+            <div class="card" >
+                <div class="front" id="card1" >
+                </div>
+                <div class="back">
+                    <h2>Current Champion:</h2>
+                    <h3 id="everdellChamp"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="pickleball" onclick="loadPickleballPage()">
+            <div class="card" >
+                <div class="front" id="card2" >
+                </div>
+                <div class="back">
+                    <h2>Current Champion:</h2>
+                    <h3 id="pickleballChamp"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="marioParty" onclick="loadMarioPartyPage()">
+            <div class="card" >
+                <div class="front" id="card3" >
+                </div>
+                <div class="back">
+                    <h2>Current Champion:</h2>
+                    <h3 id="marioPartyChamp"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="leaderboard"> One       </div>
+        <div class="leaderboard"> Two       </div>
+        <div class="leaderboard"> Three      </div>
+    </div>
+</body>
+</html>
