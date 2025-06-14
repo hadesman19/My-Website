@@ -1,10 +1,10 @@
 function loadEverdellPage() {
-    window.open("Everdell.php","_self");
+    window.open("Everdell.html","_self");
 }
 function loadPickleballPage() {
-    window.open("Pickleball.php","_self");
+    window.open("Pickleball.html","_self");
 }
 function loadMarioPartyPage() {
-    window.open("Mario-Party.php","_self");
+    window.open("Mario-Party.html","_self");
 }
 
